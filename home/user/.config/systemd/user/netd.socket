@@ -1,0 +1,12 @@
+[Unit]
+Description=Network setup socket for containers
+
+[Socket]
+# %t/netd.sock is converted to /run/user/user_uid/netd.sock
+ListenStream=%t/netd.sock
+# Launch a separate process for each connection
+Accept=yes
+SocketMode=0600
+
+[Install]
+WantedBy=sockets.target

@@ -1,0 +1,10 @@
+[Kube]
+Yaml=/home/user/host3/host3.yml
+Network=none
+PodmanArgs=--annotation="netd.use=true"
+
+[Service]
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

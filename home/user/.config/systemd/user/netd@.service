@@ -1,0 +1,8 @@
+[Unit]
+Description=Network setup handler
+
+[Service]
+ExecStart=%h/bin/netd-handler.sh
+StandardInput=socket
+StandardOutput=socket
+StandardError=journal

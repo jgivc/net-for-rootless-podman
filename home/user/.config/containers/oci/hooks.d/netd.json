@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "hook": {
+    "path": "/home/user/bin/podman_netd_hook.sh"
+  },
+  "when": {
+    "annotations": {"netd.use": ".*"}
+  },
+  "stages": ["createRuntime"]
+}

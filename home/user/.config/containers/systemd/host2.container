@@ -1,0 +1,11 @@
+[Unit]
+Description=Banner host2
+
+[Container]
+Image=quay.io/libpod/banner
+Network=none
+Annotation="netd.use=true"
+HostName=host2
+
+[Install]
+WantedBy=default.target

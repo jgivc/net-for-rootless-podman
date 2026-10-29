@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: host3
+spec:
+  hostname: host3
+  containers:
+  - name: banner1
+    image: quay.io/libpod/banner
+  - name: banner2
+    image: quay.io/libpod/banner
+    volumeMounts:
+      - name: banner2-http-d
+        mountPath: /etc/nginx/http.d
+  volumes:
+  - name: banner2-http-d
+    hostPath:
+      path: /home/user/host3/banner2-http-d
+      type: Directory
