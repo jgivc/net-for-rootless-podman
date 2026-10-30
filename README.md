@@ -39,6 +39,13 @@ home/user/
         └── netd@.service
 ```
 
+## Demo
+
+Installation on a clean VM, launching containers, and verifying connectivity via names:
+
+[![asciicast](https://asciinema.org/a/seylI7GSNTuFIleG.svg)](https://asciinema.org/a/seylI7GSNTuFIleG)
+
+
 ## Install
 
 > **Warning:** the files in `etc/` replace system configs (`nftables.conf`, `dnsmasq.conf`, network setup).
@@ -100,6 +107,7 @@ home/user/
    systemctl --user daemon-reload
    systemctl --user enable --now netd.socket
    ```
+
 
 ## Usage
 
