@@ -43,7 +43,7 @@ home/user/
 
 Installation on a clean VM, launching containers, and verifying connectivity via names:
 
-[![asciicast](https://asciinema.org/a/seylI7GSNTuFIleG.svg)](https://asciinema.org/a/seylI7GSNTuFIleG)
+[▶ Demo of installation and startup (asciinema)](https://asciinema.org/a/seylI7GSNTuFIleG)
 
 
 ## Install
