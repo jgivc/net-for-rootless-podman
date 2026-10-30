@@ -55,8 +55,8 @@ home/user/
 2. Clone the repository:
 
    ```bash
-   git clone https://github.com/<you>/podman-rootless-veth.git
-   cd podman-rootless-veth
+   git clone https://github.com/jgivc/net-for-rootless-podman.git
+   cd net-for-rootless-podman
    ```
 
 3. **Replace `user` with your username** in all files:
